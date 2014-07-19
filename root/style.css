@@ -1,0 +1,252 @@
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0px;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #36A12D;
+}
+
+h1 { font-size: 44px; }
+
+h2 { font-size: 18px; }
+
+h3 { }
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 220%;
+	text-align: justify;
+	color: #000000;
+}
+
+ul, ol { }
+
+blockquote { }
+
+a { color: #36A12D; }
+
+a:hover { text-decoration: none; }
+
+a img {
+	border: none;
+}
+
+hr { display: none; }
+
+.list1 {
+}
+
+.list1 li {
+	float: left;
+	line-height: normal;
+}
+
+.list1 li img {
+	margin: 0 30px 30px 0;
+}
+
+.list1 li.alt img {
+	margin-right: 0;
+}
+
+#wrapper {
+	margin: 0px;
+	padding: 30px 0px 0px 0px;
+}
+
+/* Header */
+
+#header-wrapper {
+	position:fixed;
+	width: 100%;
+	height: 74px;
+	margin: 0px;
+	padding: 0px;	
+	background: #FFFFFF;
+}
+
+#header {
+	width: 920px;
+	height: 74px;
+	margin: 0 auto;
+}
+
+/* Menu */
+
+#menu {
+	float: right;
+	width: 630px;
+	height: 50px;
+	padding-top: 24px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu ul li {
+	display: block;
+	float: right;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 25px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+#menu a:hover { 
+	background: #00AA00;
+}
+
+
+#menu .current_page_item a {
+	background: #00AA00;
+	color: #FFFFFF;
+}
+
+#menu .first {
+	background: none;
+}
+/* Search */
+
+#logo {
+	margin-top:24px;
+	float: left;
+	width: 280px;
+	height: 50px;
+}
+
+/** BANNER */
+#banner-wrapper{
+	width: 100%;
+	height: 427px;
+	background: #FFFFFF;
+	padding-top: 74px;
+}
+
+#banner {
+	width: 920px;
+	height: 407px;
+	margin: 0 auto;
+	background-image:url(images/banner.jpg);
+	margin-top: 10px;
+}
+
+#banner h1, #banner p {
+	margin: 0px;
+	line-height: normal;
+	text-transform: lowercase;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+#banner p {
+	padding-left: 32px;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#banner h1 {
+	padding-left: 30px;
+	padding-top: 160px;
+	font-size: 60px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#banner a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#banner h1 a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 920px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#page-bgtop {
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 580px;
+}
+
+/* Footer */
+
+#footer-wrapper {
+	margin: 0px;
+	width: 100%;
+	height: 64px;
+	background: #FFFFFF;
+	position:fixed;
+	bottom: 0;
+	border-bottom:4px solid #00AA00;
+}
+
+#social {
+	width: 402px;
+	height: 52px;
+	margin-top: 8px;
+	position: fixed;
+	left: 50%;
+	margin-left: -201px;
+}
+
+#social ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#social li {
+	display: block;
+	float: left;
+	margin-right: 18px;
+}
+
+#social a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
