@@ -59,6 +59,7 @@
 			$body = $('body'),
 			$header = $('#header'),
 			$banner = $('#banner');
+			$mobileBanner = $('#mobileBanner');
 
 		// Forms (IE<10).
 			var $form = $('form');
@@ -88,11 +89,29 @@
 		// Note: This is disabled on mobile devices.
 			if (!skel.vars.isMobile
 			&&	$header.hasClass('alt')
-			&&	$banner.length > 0) {
+			&&	$banner.length > 0 ) {
 
 				$window.on('load', function() {
 
 					$banner.scrollwatch({
+						delay:		0,
+						range:		0.5,
+						anchor:		'top',
+						on:			function() { $header.addClass('alt reveal'); },
+						off:		function() { $header.removeClass('alt'); }
+					});
+
+				});
+			
+			}
+			
+			if (!skel.vars.isMobile
+			&&	$header.hasClass('alt')
+			&&	$mobileBanner.length > 0 ) {
+
+				$window.on('load', function() {
+
+					$mobileBanner.scrollwatch({
 						delay:		0,
 						range:		0.5,
 						anchor:		'top',

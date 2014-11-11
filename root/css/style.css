@@ -976,7 +976,7 @@
 		padding-top: 3em;
 	}
 
-	body.landing #skel-layers-wrapper {
+	body #skel-layers-wrapper {
 		padding-top: 0;
 	}
 	@-moz-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
@@ -1220,12 +1220,11 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll,							fixed;
+		background-attachment: scroll, fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
@@ -1309,7 +1308,7 @@
 			}
 
 	body.landing #main {
-		margin-top: -14em;
+		margin-top: -15em;
 	}
 
 /* Footer */
