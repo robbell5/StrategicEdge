@@ -39,6 +39,7 @@
 
 	.box {
 		margin: 1em;
+		margin-top: -5em;
 		overflow-x: hidden;
 		padding: 2em 2em !important;
 	}
